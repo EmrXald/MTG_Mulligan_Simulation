@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{b43479b4-c654-4913-bc06-5d0af3800522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cards">
+      <UniqueIdentifier>{646ea2a0-25ac-4919-8d0b-df48d52aab2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw Simulator">
+      <UniqueIdentifier>{b6df953c-6a92-45c7-a760-17ba3049ced4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threadpool">
+      <UniqueIdentifier>{7968cabf-c10c-40e2-aa5e-cd012e23cb7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Conditions">
+      <UniqueIdentifier>{000f1af7-80af-4a76-895e-f6856afb7faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RapidJson">
+      <UniqueIdentifier>{3881f20a-9838-4ae1-9673-090f87905e19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MTG_Mulling_Simulation.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="CardInstance.cpp">
+      <Filter>Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="MulliganSimulator.cpp">
+      <Filter>Draw Simulator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="CardInstance.h">
+      <Filter>Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="MulliganSimulator.h">
+      <Filter>Draw Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="Threadpool.h">
+      <Filter>Threadpool</Filter>
+    </ClInclude>
+    <ClInclude Include="Conditions.h">
+      <Filter>Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\allocators.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\cursorstreamwrapper.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\document.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\encodedstream.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\encodings.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\filereadstream.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\filewritestream.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\fwd.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\istreamwrapper.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\memorybuffer.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\memorystream.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\ostreamwrapper.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\pointer.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\prettywriter.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\rapidjson.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\reader.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\schema.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\stream.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\stringbuffer.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rapidjson\writer.h">
+      <Filter>RapidJson</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "Forest",
+    "Type": 4104
+  },
+  {
+    "Name": "Swamp",
+    "Type": 1032
+  },
+  {
+    "Name": "Island",
+    "Type": 520
+  },
+  {
+    "Name": "Dual Color UB",
+    "Type": 1544
+  },
+  {
+    "Name": "Flash",
+    "Type": 32
+  },
+  {
+    "Name": "Protean Hulk",
+    "Type": 2
+  },
+  {
+    "Name": "Viscera Seer",
+    "Type": 2
+  },
+  {
+    "Name": "Non-Combo Card",
+    "Type": 0
+  },
+  {
+    "Name": "Tutor",
+    "Type": 64
+  }
+]
